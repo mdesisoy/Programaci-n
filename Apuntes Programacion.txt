@@ -1,0 +1,127 @@
+PROGRAMACIÓN
+
+Ejercicios primeros OPERACIONES MATEMÁTICAS
+
+	Ejer4 	mayor entre 3 números
+	Ejer7 	Mostrar por pantalla si un numero es multiplo de otro o no
+		    teniendo x el mayor valor
+	Ejer10 	Factorial
+	Ejer12 	Variaciones
+	Ejer13 	Division mediante restas
+	Ejer15	Valor mayor y su posicion
+	Ejer17 	Invertir contenido del vector
+
+
+Ejercicios de TABLAS
+
+	Ejer29 	Acumular las sumas de una tabla por filas en un vector y también por 
+			columnas en otro
+	Ejer30 	Mostrar por pantalla cuanto se ha vendido de cada producto
+	Ejer31 	Mostrar por pantalla cuanto vale cada producto
+	Ejer32 	Tenemos un array bidimensional en el que se guardan el numero de entradas
+			vendidas en las cuatro salas de cine del ccentro comercial, cada dia de la 
+			semana.
+			Mostrar por pantalla el dia que mas entradas se vendieron y el que menos
+	Ejer34 	Sacar el maximo y el minimo de toda la tabla, maxima asistencia, en que dia y 
+			que peli y lo mismo con el minimo
+	Ejer35	Que alumno ha obtenido las mejores notas y cual es su media
+			Por otra parte mostrar por pantalla que asignatura tiene las mejores notas y
+			su media y cual tiene las peores y su media
+	Ejer40	Cambiar las dos diagonales de la tabla
+	
+	
+Ejercicios de ORDENACIÓN METODOS
+
+	Ejer42	Ordenacion vector método burbuja
+	Ejer43 	Ordenacion de un vector por el metodo de seleccion
+	Ejer44	Ordenacion por el metodo de insercion directa
+	
+	
+Ejercicios de LLAMADAS A FUNCIONES
+
+	-- varios usan tablas --
+	Ejer48	Diferencia entre el uso de int con return cargando el resultado en una variable
+			y void sin return que modifica una variable anteriormente definida
+	Ejer49	Ordenar un vector en una funcion
+	Ejer50	Ordenar vectores de una tabla, para ello utiliza solo las filas de la tabla
+	Ejer51	Factorial, variaciones, combinaciones
+	Ejer53	Multiplicar la tabla usando funcion void que modifica la propia tabla
+	-- usan char simple--
+	Ejer59	Implementar dos funciones similares que carguen fraseMod con los caracteres de 
+			frase pero añadiendo al final de la palabra una 'x'.
+	Ejer60	Modificacion de la cadena de caracteres pasando todos los caracteres 
+			a mayusculas. Uso de toUpperCase
+	Ejer62	Funcion que devuelva una cadena de caracteres nueva sustituyendo el caracter a 
+			por la cadena de caracteres XXR (usando frase aux)
+	Ejer63	Funcion que devuelva la cadena de caracteres sustituyendo el caracter a 
+			por la cadena de caracteres XXR (sin usar frase aux)
+	Ejer64	Mostrar por pantalla numero de veces que la subcadena se encuentra
+			dentro de la cadena.
+			nnn como subcadena en 'nnnn' está 2 veces y en 'nnnnn' 3 veces
+	Ejer66	Desplazar cada caracter una posicion a la derecha y el ultimo caracter de cada
+			palabra al inicio de la frase. Lo mismo pero a la izquierda
+	-- no usan llamadas a funciones --
+	Ejer70	Sustuir las ocurrencias de sub1 por sub2 usando cadena auxiliar (no usa funcion, todo en el main)
+	Ejer73	Eliminar de una cadena de caracteres todas las veces que se repite una subcadena.
+			Sin utilizar una cadena de caracterres auxiliar
+	Ejer75  USO DE SWITCH Cambiar de la cadena, las vocales que están en mayúscula por minúscula y 
+			viceversa y el resto de los caracteres se sustituyen por '$'
+		
+		
+Ejercicios de STRINGS
+
+	-- USO DE: charAt() muestra el caracter que hay en la pos que le pases
+			   compareTo() compara dos strings y si son iguales devuelve mayor que 0 
+			   substring(uno o dos atributos) devuelve una cadena de dentro de otra 
+										      desde un inicio a un final
+			   replace(string, por cual) sustituir una subcadena por otra
+			   indexOf(string,pos desde donde) buscar una subcadena dentro de otra 
+			   concat() para concatenar dos string
+			   Character.toString(string.charAt()) para convertir un caracter en string
+			   
+	Ejer77	Poner los nombres en orden alfabético
+	Ejer80	Mostrar por pantalla el numero de veces que aparecerá el caracter 'a' en un 
+			vector de strings
+	Ejer82	Quitar todos los espacios del String sin usar replace
+	Ejer83	Ordenar las palabras en orden alfabético de un string
+			metido en un vector usando funciones de string sin compareTo
+	Ejer84	Intercambiar palabras de las dos frases para crear una entera
+	Ejer87	Limpiar las frases para que entre cada palabra haya solo un espacio en blanco
+
+
+ejercicios RECURSIVIDAD
+
+	Ejer90	Realizar una funcion recursiva que realice la multiplicacion de dos numeros
+			mediante sumas
+	Ejer92	Division entera mediante restas
+	Ejer93	Implementar una función que devuelva un entero con el número de campanadas que
+			han sonado en el reloj, contando la hora actual (número de 1 a 24), a lo largo
+			del día
+	Ejer95	Pasar un número decimal a binario
+	
+ejercicios REPASO
+	Ejer96	Algoritmo que cuente los votos con la ley de D'hont
+	Ejer97	1º)Mostrar por pantalla el trimestre con mas nacimientos.
+			2º)Mes en el que más bajas se han producido. Defunciones y traslados fuera.
+			3º)Mostrar por pantalla cuantas personas nuevas han venido al pueblo y cuantas
+			   han desaparecido (venir = nacer y asentar).
+			   
+			   
+			   
+/*RECURSIVIDAD FIBONACCI
+public static int fibonacci(int n){
+    if (n==1)   // caso base
+        return 1;
+    else if (n==0)  // caso base
+        return 0;
+	else if (n>1)
+       return fibonacci(n-1) + fibonacci(n-2);  //función recursiva
+}
+*/
+
+	
+	
+	
+	
+	
+	

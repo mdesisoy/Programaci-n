@@ -1,0 +1,150 @@
+RESUMEN EJERCICIOS PROG
+
+EJERCICIO 1
+			Primera clase creada
+			Clase Persona
+			Uso de la clase persona en el programa principal
+
+EJERCICIO 2
+			Introducción clase Abstracta (Animal)
+			No se pueden crear objetos de esa clase
+			Crear clases que hagan extend Animal
+			Atributos encapsulados
+			Usar getters y setters para poder llamarlos desde el programa principal
+			
+EJERCICIO 3
+			Clase Nif con excepciones (throws Exception)
+			Ejecutable Nif con try y catch para el tratamiento de excepciones
+
+EJERCICIO 4
+			Clase Bombo con atributos Random
+			Sacar una bola random del bombo
+
+EJERCICIO 5
+			Clase Ovalo con atributos random
+			Introducción a la clase Frame (extends Frame)
+			Partes que aparecen en todos los programas con FRAME:
+			- Constructor con super(), this.add("South, panel), this.pack(), 
+			this.resize(300, 300), this.show()
+			- Update
+			- Paint
+			- HandleEvent (seguro que tiene el evento WINFOW_DESTROY)
+			Pintar ovalos en el frame y si das a siguiente o space pintas mas sin borrar 
+			los anteriores
+			
+EJERCICIO 6
+			Programa que simula un editor de notas
+			Partes que aparecen en todos los programas con FRAME y son de este tipo:
+			- Setup
+			-SetMenuBar
+			Se genera el area de texto
+			Se genera el menu de arriba y cada submenu para poder guardar el fichero, etc
+			Con handleEvent se controla cada submenu
+			
+EJERCICIO 7
+			Programa FrameApp
+			Programa que usa diferentes utilidades de FRAME y cambia cosas con botones
+			Cambiar el titulo del frame
+			Cambiar Font
+			Cambiar cursor
+			etc..
+			
+EJERCICIO 8
+			Programa objetos
+			Saca en el Frame diferentes utilidades:
+			-Campo de texto
+			-Desplegable
+			-Zona para dibujar
+			-Lista para seleccionar
+			
+EJERCICIO 9
+			Programa Restaurante
+			Saca el Frame diferentes utilidades:
+			-Desplegable
+			-Lista para seleccionar
+			-Campo de texto
+			Eliges entre las 3 comidas del desplegable y luego en la lista
+			de comida, todas las que quieras. En el campo de texto se irán
+			escribiendo
+
+EJERCICIO 10
+			Programa DibujarApp
+			Clases MiCanvas y DosPuntos
+			Dibuja una linea, un ovalo o un rectángulo según lo elegido en el menubar
+			
+EJERCICIO 11
+			Programa Animacion1
+			Realizada todavía con Frame pero con extends runnable
+			Aparecen y desaparecen una serie de puntos en la pantalla
+
+EJERCICIO 12
+			Programa Mondrian
+			Introducción clase Applet (implements runnable)
+			NO TIENE METODO MAIN TIENE UN CICLO DE VIDA:
+			1º init() -> inicialmente vacio, se suele instanciar atributos
+			2º start() -> instanciar thread y llamar a run
+			3º paint(Graphics g) --también se usa update si necesario--
+			4º run() -> bucle de la animacion
+			   stop() -> se ejecuta al cerrar el Applet
+			
+			Programa Mondrian2
+			Hace lo mismo pero en este caso se mueven todos los rectángulos
+			Clase Rectángulo para declarar los rectángulos sin que molesten al programa principal
+			Hay una serie de rectángulos de colores sobre un fondo negro y están todos 
+			estáticos excepto el rectángulo central
+    
+EJERCICIO 13
+			Programa Jugando
+			Introducción de las Listas
+			Lista de pelotas formada por pelotas de la Clase Pelota
+			Son 10 pelotas con tamaño y color aleatorio que rebotan en las paredes del frame
+			cada vez que chocan. La velocidad de las pelotas es aleatoria también
+			Si haces click en una pelota esta desaparece (por lo tanto desaparece de la lista)
+
+EJERCICIO 14
+			Programa Arkanoid
+			Tiene una Clase Bloque que está en común entre Ladrillo, Pelota y Raqueta
+			(extends Bloque)
+			La raqueta se mueve con las teclas de las flechas derecha e izquierda
+			Si la pelota intersecta con un ladrillo este se elimina
+			Si la pelota pasa por debajo de la raqueta se acaba el juego
+
+EJERCICIO 15
+			Programa Flappy Bird
+			El pajaro tiene una gravedad, para subir hay que darle a la tecla de espacio
+			Las columnas van en una lista, están formadas por dos rectángulos y un hueco. 
+			Salen solas cada cierto tiempo (tiempoacum += TIEMPO)
+			Si el pájaro choca con una columna se acaba el juego
+			Cuando una columna sale de plano se borra de la lista
+
+EJERCICIO 16 (va medio mal)
+			Programa juego naves
+			**Para pararlo manera de poner el animacion.stop en run en vez de en paint
+			Tienes una pistola que dispara balas, si le das a una nave esta se elimina
+			Si las naves llegan al final de la pantalla pierdes
+
+EJERCICIO 17
+			Programa juego cruzar la carretera, con rana o kirby 
+			Hay dos carreteras, en una los coches van hacia un lado y en la otra en el contrario
+			La vel de cada coche es aleatoria y revotan en los extremos de la carretera (contains)
+			Si la rana/kirby choca con un coche pierde una vida, si pierde todas se acaba el juego,
+			si cruza la carretera ganas.
+			Tiene un timer también
+
+EJERCICIO 18
+			Programa Pong
+			Dos raquetas, cada una se maneja con unas teclas distintas.
+			Si uno de los jugadores llega a 3 puntos gana
+			Cuando marca, la pelota sale hacia el lado por el que entró pero desde el lado contrario
+			
+EJERCICIO 19
+			Programa juego dinosaurio
+			El dinosaurio salta cuando pulsas espacio
+			Los obstáculos salen a vel constante 
+			Si el dinosarurio choca con un obstáculo, acaba el juego
+			Tiene puntuación
+
+EJERCICIO 20
+			Programa juego pelotas
+			Cada vez que clicas una pelota esta se divide
+			No se pueden dividir mas si llega a 15 de diametro
